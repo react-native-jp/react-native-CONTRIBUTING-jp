@@ -40,9 +40,9 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 > **注意:** プルリクエストページの `Merge master to your branch` を押し続ける必要はありません。コンフリクトした場合、テストが通らなかった場合は master をマージする必要があります。 Facebook-GitHub-Bot は最終的にマージする前にすべてのコミットをひとつにまとめます。
 
-#### Copyright Notice for files
+#### ファイルの著作権表示
 
-Copy and paste this to the top of your new file(s):
+次の文面を新規追加したファイルの先頭にコピペしてください。
 
 ```JS
 /**
@@ -55,7 +55,7 @@ Copy and paste this to the top of your new file(s):
  */
 ```
 
-If you've added a new module, add a `@providesModule <moduleName>` at the end of the comment. This will allow the haste package manager to find it.
+新しいモジュールを追加した場合、コメントの最後に `@providesModule <モジュール名>` を追加してください。 haste パッケージマネージャーがモジュールを見つけ出すために必要なものです。
 
 ### Contributor License Agreement (CLA)
 
