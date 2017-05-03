@@ -69,9 +69,9 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 わかっているバグは GitHub Issues を使って管理しています。我々はいつも見て、内部の問題に進展があったとき、それが公になるように努めています。新しい問題を登録する前に、同様の問題がすでに登録されていないか探してください。
 
-### Reporting New Issues
+### 新しい問題を報告する
 
-The best way to get your bug fixed is to provide a reduced test case. Please provide either a public repository with a runnable example or a [Sketch](https://sketch.expo.io/).
+バグを修正するにあたって最も良い方法はテストケースを減らすことです。実行可能な public リポジトリーか、 [Sketch](https://sketch.expo.io/) による例を提供してください。
 
 ### Security Bugs
 
