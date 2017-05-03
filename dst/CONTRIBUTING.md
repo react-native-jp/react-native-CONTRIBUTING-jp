@@ -2,9 +2,9 @@
 
 React Native は Facebook のはじめてのオープンソースプロジェクトのひとつです。開発が非常に活発で、 [facebook.com](https://facebook.com) のみなさんにコードを配布するためにも使われています。我々はこのプロジェクトに気軽かつ透明性高くコントリビュートしていただくためにいろいろな問題へ対処中ですが、まだそこまでいたっていません。このドキュメントがコントリビュート方法を明確にし、あなたが持っている質問を解消することを願っています。
 
-## Our Development Process
+## 開発プロセス
 
-Some of the core team will be working directly on GitHub. These changes will be public from the beginning. Other changesets will come via a bridge with Facebook's internal source control. This is a necessity as it allows engineers at Facebook outside of the core team to move fast and contribute from an environment they are comfortable in.
+コアチームメンバーのうち、数名は GitHub 上で直接作業しています。これらの変更は最初から公になされます。その他の変更は Facebook 内部のソース管理ツール由来のものになります。これは Facebook 外のコアチームメンバーが慣れた環境から迅速にコントリビュートするために必要なものです。
 
 ### `master` is unsafe
 
