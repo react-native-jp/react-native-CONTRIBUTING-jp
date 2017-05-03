@@ -119,9 +119,9 @@ Facebook にはセキュリティに関するバグを安全に開示するた�
 
 #### Java
 
-* If a method call spans multiple lines closing bracket is on the same line as the last argument.
-* If a method header doesn't fit on one line each argument goes on a separate line.
-* 100 character line length
+* メソッド呼び出しが複数行に渡る場合、閉じカッコは最後の引数と同じ行に書いてください
+* メソッドヘッダーが 1 行におさまらない場合、複数行にわけてください
+* 1 行を 100 文字でおさめてください
 
 ### Documentation
 
