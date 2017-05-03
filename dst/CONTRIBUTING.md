@@ -127,6 +127,6 @@ Facebook にはセキュリティに関するバグを安全に開示するた�
 
 * 80 文字で改行しないでください。ドキュメントを変更する際はエディターの soft-wrap を設定してください
 
-## License
+## ライセンス
 
-By contributing to React Native, you agree that your contributions will be licensed under its BSD license.
+React Native へのコントリビュートはすべて BSD ライセンスが適用されます。
