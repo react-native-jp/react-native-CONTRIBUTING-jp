@@ -6,9 +6,9 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 コアチームメンバーのうち、数名は GitHub 上で直接作業しています。これらの変更は最初から公になされます。その他の変更は Facebook 内部のソース管理ツール由来のものになります。これは Facebook 外のコアチームメンバーが慣れた環境から迅速にコントリビュートするために必要なものです。
 
-### `master` is unsafe
+### `master` は安定していない
 
-We will do our best to keep `master` in good shape, with tests passing at all times. But in order to move fast, we will make API changes that your application might not be compatible with. We will do our best to communicate these changes and version appropriately so you can lock into a specific version if need be.
+`master` が安定するよう、常にテストがすべて通るよう気を使っています。しかしすばやく開発を進めるために、互換性のない API 変更をすることがあります。こういった変更やバージョンについては適切に連絡するよう気をつけていますので、必要であれば特定バージョンを使い続けることも可能です。
 
 ### Pull Requests
 
