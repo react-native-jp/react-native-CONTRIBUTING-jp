@@ -73,9 +73,9 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 バグを修正するにあたって最も良い方法はテストケースを減らすことです。実行可能な public リポジトリーか、 [Sketch](https://sketch.expo.io/) による例を提供してください。
 
-### Security Bugs
+### セキュリティに関するバグ
 
-Facebook has a [bounty program](https://www.facebook.com/whitehat/) for the safe disclosure of security bugs. With that in mind, please do not file public issues; go through the process outlined on that page.
+Facebook にはセキュリティに関するバグを安全に開示するための[賞金プログラム](https://www.facebook.com/whitehat/)があります。公の issue として登録する前に賞金プログラムを参照し、指示に従ってください。
 
 ## How to Get in Touch
 
