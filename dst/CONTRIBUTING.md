@@ -77,7 +77,7 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 Facebook にはセキュリティに関するバグを安全に開示するための[賞金プログラム](https://www.facebook.com/whitehat/)があります。公の issue として登録する前に賞金プログラムを参照し、指示に従ってください。
 
-## How to Get in Touch
+## 連絡方法
 
 * [Facebook](https://www.facebook.com/groups/react.native.community/)
 * [Twitter](https://www.twitter.com/reactnative)
