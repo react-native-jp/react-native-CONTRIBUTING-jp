@@ -123,9 +123,9 @@ Facebook にはセキュリティに関するバグを安全に開示するた�
 * メソッドヘッダーが 1 行におさまらない場合、複数行にわけてください
 * 1 行を 100 文字でおさめてください
 
-### Documentation
+### ドキュメント
 
-* Do not wrap lines at 80 characters - configure your editor to soft-wrap when editing documentation.
+* 80 文字で改行しないでください。ドキュメントを変更する際はエディターの soft-wrap を設定してください
 
 ## License
 
