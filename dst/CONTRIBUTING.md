@@ -63,11 +63,11 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 [こちらから CLA に同意してください](https://code.facebook.com/cla)
 
-## Bugs
+## バグ
 
-### Where to Find Known Issues
+### 既知の問題
 
-We are using GitHub Issues for our public bugs. We keep a close eye on this and try to make it clear when we have an internal fix in progress. Before filing a new task, try to make sure your problem doesn't already exist.
+わかっているバグは GitHub Issues を使って管理しています。我々はいつも見て、内部の問題に進展があったとき、それが公になるように努めています。新しい問題を登録する前に、同様の問題がすでに登録されていないか探してください。
 
 ### Reporting New Issues
 
