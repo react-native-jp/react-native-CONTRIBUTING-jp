@@ -33,7 +33,7 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 3. 新規追加したすべてのファイルの先頭に著作権表示を記載してください。
 4. Travis CI / CircleCI のテストが通ることを確認してください。
 5. 静的解析がとおることを確認してください (`node linter.js <変更・追加したファイル>`) 。
-6. まだ登録していない場合、 [CLA](https://code.facebook.com/cla) から開発者登録をしてください。
+6. まだ同意していない場合、 [CLA](https://code.facebook.com/cla) に同意してください。
 7. コミットをひとつにまとめてください (`git rebase -i`) 。
 
    コミットをひとつにまとめる目的はレビュー者に対してあなたの意図を理解しやすくすることです。
@@ -42,7 +42,7 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 #### ファイルの著作権表示
 
-次の文面を新規追加したファイルの先頭にコピペしてください。
+次の文面を新規追加したファイルの先頭にコピー & ペーストしてください。
 
 ```JS
 /**
@@ -59,9 +59,9 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 ### Contributor License Agreement (CLA)
 
-In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another Facebook open source project, you're good to go. If you are submitting a pull request for the first time, just let us know that you have completed the CLA and we can cross-check with your GitHub username.
+あなたのプルリクエストを受けいれるにあたって CLA に同意していただく必要があります。これは一度やれば大丈夫です。その他のオープンソースプロジェクトですでに登録済みの場合、特になにもする必要はありません。はじめてプルリクエストを送る場合、 CLA に同意したことを教えてください。あなたの GitHub ユーザー名でクロスチェックします。
 
-[Complete your CLA here](https://code.facebook.com/cla)
+[こちらから CLA に同意してください](https://code.facebook.com/cla)
 
 ## Bugs
 
