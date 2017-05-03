@@ -82,16 +82,16 @@ Facebook にはセキュリティに関するバグを安全に開示するた�
 * [Facebook](https://www.facebook.com/groups/react.native.community/)
 * [Twitter](https://www.twitter.com/reactnative)
 
-## Style Guide
+## スタイルガイド
 
-### Code
+### コード
 
-#### General
+#### 全般的に
 
-* **Most important: Look around.** Match the style you see used in the rest of the project. This includes formatting, naming things in code, naming things in documentation.
-* Add trailing commas,
-* 2 spaces for indentation (no tabs)
-* "Attractive"
+* **超重要: まわりとあわせること。**プロジェクトですでに使われているスタイルとあわせてください。これは整形、命名規則、ドキュメントの書き方にも当てはまります。
+* [trailing commas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas) を追加してください ( 訳注: リンクは翻訳者によるものです )
+* インデントは半角スペース 2 つとしてください ( タブ文字は使わないでください )
+* "キレイなコードを書いてください"
 
 #### JavaScript
 
