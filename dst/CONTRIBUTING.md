@@ -95,11 +95,11 @@ Facebook にはセキュリティに関するバグを安全に開示するた�
 
 #### JavaScript
 
-* Use semicolons;
+* セミコロン `;` を使ってください
 * `'use strict';`
-* Prefer `'` over `"`
-* Do not use the optional parameters of `setTimeout` and `setInterval`
-* 80 character line length
+* `"` ではなく `'` を使ってください
+* `setTimeout` と `setInterval` の第 3 引数は使ってはいけません
+* 1 行は 80 文字に抑えてください
 
 #### JSX
 
