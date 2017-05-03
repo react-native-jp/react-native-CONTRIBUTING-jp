@@ -103,11 +103,11 @@ Facebook にはセキュリティに関するバグを安全に開示するた�
 
 #### JSX
 
-* Prefer `"` over `'` for string literal props
-* When wrapping opening tags over multiple lines, place one prop per line
-* `{}` of props should hug their values (no spaces)
-* Place the closing `>` of opening tags on the same line as the last prop
-* Place the closing `/>` of self-closing tags on their own line and left-align them with the opening `<`
+* props に 文字列リテラルを指定する場合 `'` ではなく `"` を使ってください
+* 開きタグを複数行にする場合、 1 行に 1 つの props を書いてください
+* props に `{}` を指定する場合、間に半角スペースを入れないでください
+* 開きタグの `>` は最後の props と同じ行に書いてください
+* 空要素の `/>` は上に照らし合わせて適切な位置に書き、 `<` の位置で左寄せしてください
 
 #### Objective-C
 
