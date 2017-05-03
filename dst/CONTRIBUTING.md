@@ -10,34 +10,35 @@ React Native は Facebook のはじめてのオープンソースプロジェク
 
 `master` が安定するよう、常にテストがすべて通るよう気を使っています。しかしすばやく開発を進めるために、互換性のない API 変更をすることがあります。こういった変更やバージョンについては適切に連絡するよう気をつけていますので、必要であれば特定バージョンを使い続けることも可能です。
 
-### Pull Requests
+### プルリクエスト
 
-The core team will be monitoring for pull requests. When we get one, we'll run some Facebook-specific integration tests on it first. From here, we'll need to get another person to sign off on the changes and then merge the pull request. For API changes we may need to fix internal uses, which could cause some delay. We'll do our best to provide updates and feedback throughout the process.
+コアチームメンバーはプルリクエストを見ています。プルリクエストをもらうとまず、 Facebook での統合テストを実施します。その後マージされるためには、誰かによって承認される必要があります。 API 変更については Facebook 内部での使用にあたって問題解決をする必要があるため、時間をいただくことがあります。そういったプロセスについての最新情報やフィードバックを提供できるように最善を尽くします。
 
-**Please submit your pull request on the `master` branch**. If the fix is critical and should be included in a stable branch please mention it and it will be cherry picked into it by a project maintainer.
+**プルリクエストは `master` ブランチに送ってください。**もし修正がクリティカルなもので、 stable なブランチにも取り込まれる必要のあるものの場合、その旨を伝えてください。プロジェクトのメンテナーによって cherry-pick されます。
 
-*Before* submitting a pull request, please make sure the following is done…
+プルリクエストを送る*前に*、次が完了していることを確認してください。
 
-1. Fork the repo and create your branch from `master`.
-2. **Describe your test plan in your commit.**
-  - If you've added code that should be tested, add tests!
-  - If you've changed APIs, update the documentation.
-  - If you've updated the docs, verify the website locally and submit screenshots if applicable.
+1. リポジトリーをフォークして `master` からあなたのブランチを生やしてください。
+2. **テストプランをコミットメッセージに書いてください。**
+  - テストが必要なコードを追加した場合、テストも追加してください !
+  - API を変更した場合、ドキュメントも更新してください。
+  - ドキュメントを更新した場合、可能であれば Web サイトを手元で確認してスクリーンショットを送ってください。
 
   ```
   $ cd website
   $ npm install && npm start
-  Open the following in your browser: http://localhost:8079/react-native/index.html
+  次をブラウザーで開いてください: http://localhost:8079/react-native/index.html
   ```
 
-3. Add the copyright notice to the top of any new files you've added.
-4. Ensure tests pass on Travis and Circle CI.
-5. Make sure your code lints (`node linter.js <files touched>`).
-6. If you haven't already, sign the [CLA](https://code.facebook.com/cla).
-7. Squash your commits (`git rebase -i`).
-   One intent alongside one commit makes it clearer for people to review and easier to understand your intention.
+3. 新規追加したすべてのファイルの先頭に著作権表示を記載してください。
+4. Travis CI / CircleCI のテストが通ることを確認してください。
+5. 静的解析がとおることを確認してください (`node linter.js <変更・追加したファイル>`) 。
+6. まだ登録していない場合、 [CLA](https://code.facebook.com/cla) から開発者登録をしてください。
+7. コミットをひとつにまとめてください (`git rebase -i`) 。
 
-> **Note:** It is not necessary to keep clicking `Merge master to your branch` on the PR page. You would want to merge master if there are conflicts or tests are failing. The Facebook-GitHub-Bot ultimately squashes all commits to a single one before merging your PR.
+   コミットをひとつにまとめる目的はレビュー者に対してあなたの意図を理解しやすくすることです。
+
+> **注意:** プルリクエストページの `Merge master to your branch` を押し続ける必要はありません。コンフリクトした場合、テストが通らなかった場合は master をマージする必要があります。 Facebook-GitHub-Bot は最終的にマージする前にすべてのコミットをひとつにまとめます。
 
 #### Copyright Notice for files
 
