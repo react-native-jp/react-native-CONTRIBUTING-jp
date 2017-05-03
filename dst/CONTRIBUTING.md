@@ -1,6 +1,6 @@
-# Contributing to React Native
+# React Native へのコントリビュート
 
-React Native is one of Facebook's first open source projects that is both under very active development and is also being used to ship code to everybody on [facebook.com](https://facebook.com). We're still working out the kinks to make contributing to this project as easy and transparent as possible, but we're not quite there yet. Hopefully this document makes the process for contributing clear and preempts some questions you may have.
+React Native は Facebook のはじめてのオープンソースプロジェクトのひとつです。開発が非常に活発で、 [facebook.com](https://facebook.com) のみなさんにコードを配布するためにも使われています。我々はこのプロジェクトに気軽かつ透明性高くコントリビュートしていただくためにいろいろな問題へ対処中ですが、まだそこまでいたっていません。このドキュメントがコントリビュート方法を明確にし、あなたが持っている質問を解消することを願っています。
 
 ## Our Development Process
 
