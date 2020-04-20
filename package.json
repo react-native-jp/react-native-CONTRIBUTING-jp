@@ -1,6 +1,8 @@
 {
   "name": "contributing-jp",
   "version": "1.0.0",
+  "author": "React Native Japan",
+  "license": "Creative Commons",
   "description": "en-jp translations for React Native CONTRIBUTING.md",
   "scripts": {
     "lint": "textlint dst/CONTRIBUTING.md"
@@ -9,15 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/react-native-jp/CONTRIBUTING-jp.git"
   },
-  "author": "React Native Japan",
-  "license": "Creative Commons",
   "bugs": {
     "url": "https://github.com/react-native-jp/CONTRIBUTING-jp/issues"
   },
   "homepage": "https://github.com/react-native-jp/CONTRIBUTING-jp#readme",
   "devDependencies": {
-    "textlint": "^7.4.0",
-    "textlint-rule-preset-japanese": "^1.3.4",
-    "textlint-rule-preset-jtf-style": "^2.2.5"
+    "textlint": "11.6.3",
+    "textlint-rule-preset-japanese": "4.0.4",
+    "textlint-rule-preset-jtf-style": "2.3.4"
   }
 }
